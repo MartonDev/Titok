@@ -85,14 +85,14 @@ $('#unlock').click(function() {
 
 $('.secret-header').click(function() {
 
-  if($('.secret-body').css('display') == 'block') {
+  if($(this).parent().find('.secret-body').css('display') == 'block') {
 
-    $('.secret-body').css('display', 'none');
+    $(this).parent().find('.secret-body').css('display', 'none');
     $(this).find('h2').html('+');
 
   }else {
 
-    $('.secret-body').css('display', 'block');
+    $(this).parent().find('.secret-body').css('display', 'block');
     $(this).find('h2').html('-');
 
   }

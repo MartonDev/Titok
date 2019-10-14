@@ -18,6 +18,12 @@ input, button {
 
 }
 
+a {
+
+  color: #fff;
+
+}
+
 ::selection {
 
   background: #00E200;
@@ -144,6 +150,7 @@ input, button {
   padding: 16px 30px;
   width: calc(100% - 80px);
   background-color: rgba(0, 0, 0, .6);
+  margin-bottom: 15px;
 
 }
 
@@ -176,9 +183,16 @@ input, button {
 
 .secrets .secret .secret-body {
 
-  margin-top: 23px;
+  margin-top: 24px;
   color: #ebebeb;
   display: none;
   font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.author {
+
+  font-size: 16px;
+  font-weight: lighter;
 
 }
