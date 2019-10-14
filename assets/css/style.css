@@ -9,6 +9,7 @@ body {
 
   margin: 0;
   font-family: 'Teko', sans-serif;
+  overflow-x: hidden;
 
 }
 
@@ -194,5 +195,22 @@ a {
 
   font-size: 16px;
   font-weight: lighter;
+
+}
+
+.secret.sources {
+
+  margin-top: 50px;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .secrets {
+
+    width: 94%;
+    padding: 30px 3%;
+
+  }
 
 }
