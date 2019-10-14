@@ -52,7 +52,7 @@ RunMatrix();
 
 function RunMatrix() {
 
-  if(typeof Game_Interval != "undefined") {
+  if(typeof Game_Interval != 'undefined') {
 
     clearInterval(Game_Interval);
 
@@ -67,3 +67,17 @@ function StopMatrix() {
   clearInterval(Game_Interval);
 
 }
+
+$('#unlock').click(function() {
+
+  if($('#unlock-code').val() == '1234') {
+
+    $('.code').css('display', 'none');
+
+  }else {
+
+    $('.code p.error').css('display', 'block');
+
+  }
+
+});

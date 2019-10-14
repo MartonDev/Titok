@@ -8,6 +8,13 @@
 body {
 
   margin: 0;
+  font-family: 'Teko', sans-serif;
+
+}
+
+input, button {
+
+  font-family: 'Teko', sans-serif;
 
 }
 
@@ -49,5 +56,59 @@ body {
   top: 0;
   bottom: 0;
   z-index: -20;
+
+}
+
+.code {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.code h1 {
+
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  margin: 0;
+
+}
+
+.code input {
+
+  background-color: rgba(0, 0, 0, .6);
+  outline: none;
+  border: 1px solid #fff;
+  padding: 2px 5px;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 auto;
+
+}
+
+.code button {
+
+  background-color: rgba(0, 0, 0, .6);
+  outline: none;
+  border: 1px solid #00E200;
+  padding: 2px 5px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.code p.error {
+
+  color: #ff0000;
+  font-size: 16px;
+  text-align: center;
+  display: none;
 
 }
