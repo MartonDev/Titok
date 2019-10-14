@@ -73,10 +73,27 @@ $('#unlock').click(function() {
   if($('#unlock-code').val() == '1234') {
 
     $('.code').css('display', 'none');
+    $('.secrets').css('display', 'block');
 
   }else {
 
     $('.code p.error').css('display', 'block');
+
+  }
+
+});
+
+$('.secret-header').click(function() {
+
+  if($('.secret-body').css('display') == 'block') {
+
+    $('.secret-body').css('display', 'none');
+    $(this).find('h2').html('+');
+
+  }else {
+
+    $('.secret-body').css('display', 'block');
+    $(this).find('h2').html('-');
 
   }
 

@@ -112,3 +112,73 @@ input, button {
   display: none;
 
 }
+
+.secrets {
+
+  width: 60%;
+  padding: 30px 20%;
+  display: none;
+
+}
+
+.secrets h1.title {
+
+  color: #fff;
+  font-size: 45px;
+  margin: 0;
+
+}
+
+.secrets h1.subtitle {
+
+  color: #d2d2d2;
+  font-size: 27px;
+  margin: 20px 0;
+  font-weight: 200;
+
+}
+
+.secrets .secret {
+
+  border: 2px solid #00E200;
+  padding: 16px 30px;
+  width: calc(100% - 80px);
+  background-color: rgba(0, 0, 0, .6);
+
+}
+
+.secrets .secret .secret-header {
+
+  cursor: pointer;
+
+}
+
+.secrets .secret .secret-header h1 {
+
+  color: #fff;
+  font-size: 22px;
+  display: inline-block;
+  font-weight: 200;
+  margin: 0;
+
+}
+
+.secrets .secret .secret-header h2 {
+
+  color: #fff;
+  font-size: 26px;
+  display: inline-block;
+  font-weight: 200;
+  float: right;
+  margin: 0;
+
+}
+
+.secrets .secret .secret-body {
+
+  margin-top: 23px;
+  color: #ebebeb;
+  display: none;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
